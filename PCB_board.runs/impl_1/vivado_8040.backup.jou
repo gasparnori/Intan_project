@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Jun  8 11:22:32 2017
+# Process ID: 8040
+# Current directory: E:/Nora/Xilinx/mux_adc_intan_simplified/PCB_board/PCB_board.runs/impl_1
+# Command line: vivado.exe -log SPI_counter.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source SPI_counter.tcl -notrace
+# Log file: E:/Nora/Xilinx/mux_adc_intan_simplified/PCB_board/PCB_board.runs/impl_1/SPI_counter.vdi
+# Journal file: E:/Nora/Xilinx/mux_adc_intan_simplified/PCB_board/PCB_board.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source SPI_counter.tcl -notrace

@@ -1,0 +1,63 @@
+Exception at PC 0x000007FEFCDAA06D
+Unable to capture context for thread 5200 in process 7964, can not generate back trace
+Unable to capture context for thread 3636 in process 7964, can not generate back trace
+Exception at PC 0x000007FEB48ABB93
+Printing stacktrace...
+
+Unable to capture context for thread 5200 in process 7964, can not generate back trace
+Unable to capture context for thread 3636 in process 7964, can not generate back trace
+Exception at PC 0x000007FEFCDAA06D
+Exception at PC 0x000007FEFCDAA06D
+Exception at PC 0x000007FEFCDAA06D
+Exception at PC 0x000007FEFCDAA06D
+Exception at PC 0x000007FEFCDAA06D
+Exception at PC 0x000007FEFCDAA06D
+Exception at PC 0x000007FEFCDAA06D
+Unable to capture context for thread 4028 in process 7964, can not generate back trace
+Exception at PC 0x000007FEFCDAA06D
+Exception at PC 0x000007FEFCDAA06D
+Exception at PC 0x000007FEFCDAA06D
+Exception at PC 0x000007FEFCDAA06D
+Exception at PC 0x000007FEFCDAA06D
+Exception at PC 0x000007FEFCDAA06D
+Exception at PC 0x000007FEFCDAA06D
+Exception at PC 0x000007FEFCDAA06D
+Exception at PC 0x000007FEFCDAA06D
+Exception at PC 0x000007FEFCDAA06D
+[0]  [0x000007FEB48ABB93]
+[1]  [0x000007FEB48ABB93]
+[2]  [0x000007FEB48AB4A1]
+[3]  [0x000007FEB48AB3EF]
+[4]  [0x000007FEB48919FE]
+[5]  [0x000007FEB4890ED1]
+[6]  [0x000007FEB4890D76]
+[7]  [0x000007FEB48379F6]
+[8]  [0x000007FEB4827AFB]
+[9]  [0x000007FEB494E90A]
+[10]  [0x000007FEB4969F87]
+[11]  [0x000007FEB496A05F]
+[12] (BaseThreadInitThunk+0xd) [0x0000000076CE59CD]
+[13] (RtlUserThreadStart+0x21) [0x0000000076F1A561]
+Done
+Exception at PC 0x000007FEB45B1A52
+Attemped to write at address 0x000007FEE7359BA4
+Printing stacktrace...
+
+[0]  [0x000007FEB45B1A52]
+[1]  [0x000007FEB45B1A52]
+[2]  [0x000007FEB45B1AD4]
+[3]  [0x000007FEB46F3FF7]
+[4]  [0x000007FEB45D9128]
+[5]  [0x000007FEB488DFB9]
+[6]  [0x000007FEB4A5EF23]
+[7]  [0x000007FEB496B06B]
+[8]  [0x000007FEB49608AF]
+[9]  [0x000007FEB4960A32]
+[10] (LdrShutdownProcess+0x1d1) [0x0000000076F12AC1]
+[11] (RtlExitUserProcess+0x90) [0x0000000076F128D0]
+[12] (wcstoui64+0x2fa) [0x000007FEFD3799E2]
+[13]  [0x00000000004014CD]
+[14]  [0x000000000040151B]
+[15] (BaseThreadInitThunk+0xd) [0x0000000076CE59CD]
+[16] (RtlUserThreadStart+0x21) [0x0000000076F1A561]
+Done

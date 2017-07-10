@@ -1,0 +1,20 @@
+Vivado Simulator 2017.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx2/Vivado/2017.1/bin/unwrapped/win64.o/xelab.exe -wto 4e2013ae107d43a6af39e82c59ed3979 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot sim_counters_behav xil_defaultlib.sim_counters -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.mux_adc_block [\mux_adc_block(mux_start=8,conv_...]
+Compiling architecture behavioral of entity xil_defaultlib.mux_adc_block [\mux_adc_block(mux_start=24)\]
+Compiling architecture behavioral of entity xil_defaultlib.mux_adc_block [\mux_adc_block(mux_start=40,conv...]
+Compiling architecture behavioral of entity xil_defaultlib.commands [commands_default]
+Compiling architecture behavioral of entity xil_defaultlib.SPI_counter [spi_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.sim_counters
+Built simulation snapshot sim_counters_behav

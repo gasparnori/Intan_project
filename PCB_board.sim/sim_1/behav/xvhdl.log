@@ -1,0 +1,9 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Nora/Xilinx/mux_adc_intan_simplified/PCB_board/PCB_board.srcs/sources_1/new/commands.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity commands
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Nora/Xilinx/mux_adc_intan_simplified/PCB_board/PCB_board.srcs/sources_1/new/counters.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SPI_counter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Nora/Xilinx/mux_adc_intan_simplified/PCB_board/PCB_board.srcs/sources_1/new/mux_adc_block.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_adc_block
+WARNING: [VRFC 10-471] case choice must be a locally static expression [E:/Nora/Xilinx/mux_adc_intan_simplified/PCB_board/PCB_board.srcs/sources_1/new/mux_adc_block.vhd:72]
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Nora/Xilinx/mux_adc_intan_simplified/PCB_board/PCB_board.srcs/sim_1/new/sim_counters.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sim_counters

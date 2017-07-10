@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Mon Jul 10 12:57:18 2017
+# Process ID: 5076
+# Current directory: E:/Nora/Xilinx/mux_adc_intan_simplified/PCB_board
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4660 E:\Nora\Xilinx\mux_adc_intan_simplified\PCB_board\PCB_board.xpr
+# Log file: E:/Nora/Xilinx/mux_adc_intan_simplified/PCB_board/vivado.log
+# Journal file: E:/Nora/Xilinx/mux_adc_intan_simplified/PCB_board\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Nora/Xilinx/mux_adc_intan_simplified/PCB_board/PCB_board.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx2/Vivado/2017.1/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 849.004 ; gain = 158.844uupdate_compile_order -fileset sources_1eexit
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 10 12:58:58 2017...

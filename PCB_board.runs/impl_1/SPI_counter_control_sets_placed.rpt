@@ -1,0 +1,88 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
+| Date         : Thu Jun 15 13:41:19 2017
+| Host         : Skadi running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file SPI_counter_control_sets_placed.rpt
+| Design       : SPI_counter
+| Device       : xc7a15t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    22 |
+| Unused register locations in slices containing registers |   126 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             117 |           22 |
+| No           | No                    | Yes                    |              11 |            5 |
+| No           | Yes                   | No                     |               7 |            1 |
+| Yes          | No                    | No                     |              15 |           15 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               4 |            1 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------+--------------------------------------+----------------------------+------------------+----------------+
+|              Clock Signal             |             Enable Signal            |      Set/Reset Signal      | Slice Load Count | Bel Load Count |
++---------------------------------------+--------------------------------------+----------------------------+------------------+----------------+
+|  LED_OBUF_BUFG                        | readcmd[0]_i_1_n_0                   |                            |                1 |              1 |
+|  LED_OBUF_BUFG                        | readcmd[10]_i_1_n_0                  |                            |                1 |              1 |
+|  LED_OBUF_BUFG                        | readcmd[11]_i_1_n_0                  |                            |                1 |              1 |
+|  LED_OBUF_BUFG                        | readcmd[12]_i_1_n_0                  |                            |                1 |              1 |
+|  LED_OBUF_BUFG                        | readcmd[14]_i_1_n_0                  |                            |                1 |              1 |
+|  LED_OBUF_BUFG                        | readcmd[15]_i_1_n_0                  |                            |                1 |              1 |
+|  LED_OBUF_BUFG                        | readcmd[1]_i_1_n_0                   |                            |                1 |              1 |
+|  LED_OBUF_BUFG                        | readcmd[2]_i_1_n_0                   |                            |                1 |              1 |
+|  LED_OBUF_BUFG                        | readcmd[3]_i_1_n_0                   |                            |                1 |              1 |
+|  LED_OBUF_BUFG                        | readcmd[4]_i_1_n_0                   |                            |                1 |              1 |
+|  LED_OBUF_BUFG                        | readcmd[5]_i_1_n_0                   |                            |                1 |              1 |
+|  LED_OBUF_BUFG                        | readcmd[6]_i_1_n_0                   |                            |                1 |              1 |
+|  LED_OBUF_BUFG                        | readcmd[7]_i_1_n_0                   |                            |                1 |              1 |
+|  LED_OBUF_BUFG                        | readcmd[8]_i_1_n_0                   |                            |                1 |              1 |
+|  LED_OBUF_BUFG                        | readcmd[9]_i_1_n_0                   |                            |                1 |              1 |
+|  LED_OBUF_BUFG                        | GEN_BLOCKS[0].b/bitcounter_reg[0]__0 | bitcounter[3]__0_i_1_n_0   |                1 |              4 |
+|  LED_OBUF_BUFG                        |                                      | u/debounced_CS             |                2 |              5 |
+|  GEN_BLOCKS[0].b/bitcounter_reg[0]__0 |                                      |                            |                2 |              6 |
+|  LED_OBUF_BUFG                        |                                      | ADC_counter_reg[5]_i_2_n_2 |                3 |              6 |
+|  u/debounced_CS                       |                                      | MSB[6]                     |                1 |              7 |
+|  u/debounced_CS                       |                                      |                            |                2 |             11 |
+|  SYSCLK_IBUF_BUFG                     |                                      |                            |               18 |            100 |
++---------------------------------------+--------------------------------------+----------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                    15 |
+| 4      |                     1 |
+| 5      |                     1 |
+| 6      |                     2 |
+| 7      |                     1 |
+| 11     |                     1 |
+| 16+    |                     1 |
++--------+-----------------------+
+
+
